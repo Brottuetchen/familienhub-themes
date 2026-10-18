@@ -1,0 +1,92 @@
+{
+  "name": "Retro Synthwave",
+  "colors": {
+    "primary": "#FF007F",
+    "secondary": "#00F0FF",
+    "background": "#140C24",
+    "surface": "#1F1235",
+    "surfaceHigh": "#2E1B4E",
+    "border": "#491F6D",
+    "onPrimary": "#FFFFFF",
+    "onSecondary": "#140C24",
+    "onBackground": "#F0E6FF",
+    "onSurface": "#E5D4FF"
+  },
+  "style": {
+    "background": {
+      "type": "glow",
+      "colors": [
+        "#42003B",
+        "#10002B",
+        "#0F001A"
+      ]
+    },
+    "card": {
+      "radius": 16,
+      "border": 2,
+      "shadow": "hard",
+      "glass": true,
+      "header": "band"
+    },
+    "accents": [
+      "#FF007F",
+      "#00F0FF",
+      "#FFEA00",
+      "#9D4EDD",
+      "#FF6B6B",
+      "#38B000"
+    ],
+    "layout": "bento",
+    "nav": "floating",
+    "titleWeight": 800,
+    "uppercaseTitles": true,
+    "font": {
+      "title": "grotesk",
+      "body": "system",
+      "label": "mono"
+    }
+  },
+  "variants": {
+    "light": {
+      "colors": {
+        "primary": "#D00070",
+        "secondary": "#009BBB",
+        "background": "#F5EFFF",
+        "surface": "#FFFFFF",
+        "surfaceHigh": "#EADFFF",
+        "border": "#D2B7E8",
+        "onPrimary": "#FFFFFF",
+        "onSecondary": "#FFFFFF",
+        "onBackground": "#2E114D",
+        "onSurface": "#3F1E60"
+      },
+      "style": {
+        "background": {
+          "type": "gradient",
+          "colors": [
+            "#F9F5FF",
+            "#EADFFF"
+          ]
+        },
+        "card": {
+          "glass": false,
+          "shadow": "soft"
+        }
+      }
+    },
+    "dark": {
+      "colors": {
+        "primary": "#FF007F",
+        "secondary": "#00F0FF",
+        "background": "#140C24",
+        "surface": "#1F1235",
+        "surfaceHigh": "#2E1B4E",
+        "border": "#491F6D",
+        "onPrimary": "#FFFFFF",
+        "onSecondary": "#140C24",
+        "onBackground": "#F0E6FF",
+        "onSurface": "#E5D4FF"
+      }
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "name": "E-Ink Reader",
+  "colors": {
+    "primary": "#222222",
+    "secondary": "#555555",
+    "background": "#F4F4F0",
+    "surface": "#FAFAFA",
+    "surfaceHigh": "#E6E6E1",
+    "border": "#333333",
+    "onPrimary": "#F4F4F0",
+    "onSecondary": "#FFFFFF",
+    "onBackground": "#111111",
+    "onSurface": "#1A1A1A"
+  },
+  "style": {
+    "background": {
+      "type": "solid",
+      "colors": [
+        "#F4F4F0"
+      ]
+    },
+    "card": {
+      "radius": 4,
+      "border": 1,
+      "shadow": "none",
+      "glass": false,
+      "header": "plain"
+    },
+    "accents": [
+      "#111111",
+      "#333333",
+      "#555555",
+      "#777777",
+      "#444444",
+      "#222222"
+    ],
+    "layout": "list",
+    "nav": "bar",
+    "titleWeight": 700,
+    "uppercaseTitles": false,
+    "font": {
+      "title": "system",
+      "body": "system",
+      "label": "mono"
+    }
+  },
+  "variants": {
+    "light": {
+      "colors": {
+        "primary": "#222222",
+        "secondary": "#555555",
+        "background": "#F4F4F0",
+        "surface": "#FAFAFA",
+        "surfaceHigh": "#E6E6E1",
+        "border": "#333333",
+        "onPrimary": "#F4F4F0",
+        "onSecondary": "#FFFFFF",
+        "onBackground": "#111111",
+        "onSurface": "#1A1A1A"
+      }
+    },
+    "dark": {
+      "colors": {
+        "primary": "#E0E0DC",
+        "secondary": "#A0A09C",
+        "background": "#141413",
+        "surface": "#1E1E1C",
+        "surfaceHigh": "#2A2A27",
+        "border": "#555552",
+        "onPrimary": "#141413",
+        "onSecondary": "#141413",
+        "onBackground": "#E8E8E3",
+        "onSurface": "#D8D8D2"
+      },
+      "style": {
+        "background": {
+          "type": "solid",
+          "colors": [
+            "#141413"
+          ]
+        }
+      }
+    }
+  }
+}

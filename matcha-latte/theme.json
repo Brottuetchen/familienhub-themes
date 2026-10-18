@@ -1,0 +1,89 @@
+{
+  "name": "Matcha Zen",
+  "colors": {
+    "primary": "#4A6B53",
+    "secondary": "#A3B18A",
+    "background": "#F7F6F0",
+    "surface": "#FFFFFF",
+    "surfaceHigh": "#EBF0EA",
+    "border": "#D0DDD0",
+    "onPrimary": "#FFFFFF",
+    "onSecondary": "#1E2920",
+    "onBackground": "#233327",
+    "onSurface": "#2C3E30"
+  },
+  "style": {
+    "background": {
+      "type": "glow",
+      "colors": [
+        "#E2ECE0",
+        "#F7F6F0",
+        "#EAE4D7"
+      ]
+    },
+    "card": {
+      "radius": 28,
+      "border": 1,
+      "shadow": "soft",
+      "glass": true,
+      "header": "plain"
+    },
+    "accents": [
+      "#4A6B53",
+      "#84A98C",
+      "#D4A373",
+      "#E07A5F",
+      "#588157",
+      "#B5838D"
+    ],
+    "layout": "bento",
+    "nav": "floating",
+    "titleWeight": 600,
+    "uppercaseTitles": false,
+    "font": {
+      "title": "grotesk",
+      "body": "system",
+      "label": "mono"
+    }
+  },
+  "variants": {
+    "light": {
+      "colors": {
+        "primary": "#4A6B53",
+        "secondary": "#A3B18A",
+        "background": "#F7F6F0",
+        "surface": "#FFFFFF",
+        "surfaceHigh": "#EBF0EA",
+        "border": "#D0DDD0",
+        "onPrimary": "#FFFFFF",
+        "onSecondary": "#1E2920",
+        "onBackground": "#233327",
+        "onSurface": "#2C3E30"
+      }
+    },
+    "dark": {
+      "colors": {
+        "primary": "#84A98C",
+        "secondary": "#D4A373",
+        "background": "#111A14",
+        "surface": "#19261E",
+        "surfaceHigh": "#23362A",
+        "border": "#314B3A",
+        "onPrimary": "#0D1410",
+        "onSecondary": "#1A120B",
+        "onBackground": "#E6EFE8",
+        "onSurface": "#D5E2D8"
+      },
+      "style": {
+        "background": {
+          "type": "glow",
+          "colors": [
+            "#1E3526",
+            "#111A14",
+            "#242018"
+          ]
+        }
+      }
+    }
+  }
+}

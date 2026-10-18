@@ -1,0 +1,86 @@
+{
+  "name": "Solarized Paper",
+  "colors": {
+    "primary": "#2B4C3F",
+    "secondary": "#8F5E36",
+    "background": "#FDF6E3",
+    "surface": "#F5EDD5",
+    "surfaceHigh": "#EADFC2",
+    "border": "#D3C29D",
+    "onPrimary": "#FDF6E3",
+    "onSecondary": "#FDF6E3",
+    "onBackground": "#2B4C3F",
+    "onSurface": "#3E3B32"
+  },
+  "style": {
+    "background": {
+      "type": "solid",
+      "colors": [
+        "#FDF6E3"
+      ]
+    },
+    "card": {
+      "radius": 28,
+      "border": 2,
+      "shadow": "soft",
+      "glass": false,
+      "header": "plain"
+    },
+    "accents": [
+      "#2B4C3F",
+      "#8F5E36",
+      "#B58900",
+      "#C64F3B",
+      "#5A7057",
+      "#A84B6F"
+    ],
+    "layout": "bento",
+    "nav": "bar",
+    "titleWeight": 900,
+    "uppercaseTitles": false,
+    "font": {
+      "title": "grotesk",
+      "body": "system",
+      "label": "mono"
+    }
+  },
+  "variants": {
+    "light": {
+      "colors": {
+        "primary": "#2B4C3F",
+        "secondary": "#8F5E36",
+        "background": "#FDF6E3",
+        "surface": "#F5EDD5",
+        "surfaceHigh": "#EADFC2",
+        "border": "#D3C29D",
+        "onPrimary": "#FDF6E3",
+        "onSecondary": "#FDF6E3",
+        "onBackground": "#2B4C3F",
+        "onSurface": "#3E3B32"
+      }
+    },
+    "dark": {
+      "colors": {
+        "primary": "#A5C6A7",
+        "secondary": "#EAA872",
+        "background": "#121A1A",
+        "surface": "#1A2525",
+        "surfaceHigh": "#223131",
+        "border": "#314444",
+        "onPrimary": "#0A1111",
+        "onSecondary": "#1A1009",
+        "onBackground": "#E6EBE6",
+        "onSurface": "#CAD5CA"
+      },
+      "style": {
+        "background": {
+          "type": "gradient",
+          "colors": [
+            "#101515",
+            "#162020"
+          ]
+        }
+      }
+    }
+  }
+}

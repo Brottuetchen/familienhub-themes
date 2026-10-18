@@ -1,0 +1,85 @@
+{
+  "name": "Swiss Bauhaus",
+  "colors": {
+    "primary": "#E63946",
+    "secondary": "#1D3557",
+    "background": "#F4F1EA",
+    "surface": "#FFFFFF",
+    "surfaceHigh": "#E8E4DB",
+    "border": "#111111",
+    "onPrimary": "#FFFFFF",
+    "onSecondary": "#FFFFFF",
+    "onBackground": "#111111",
+    "onSurface": "#111111"
+  },
+  "style": {
+    "background": {
+      "type": "solid",
+      "colors": [
+        "#F4F1EA"
+      ]
+    },
+    "card": {
+      "radius": 0,
+      "border": 2,
+      "shadow": "none",
+      "glass": false,
+      "header": "band"
+    },
+    "accents": [
+      "#E63946",
+      "#1D3557",
+      "#FFB703",
+      "#2A9D8F",
+      "#111111",
+      "#F4A261"
+    ],
+    "layout": "bento",
+    "nav": "bar",
+    "titleWeight": 900,
+    "uppercaseTitles": true,
+    "font": {
+      "title": "grotesk",
+      "body": "system",
+      "label": "mono"
+    }
+  },
+  "variants": {
+    "light": {
+      "colors": {
+        "primary": "#E63946",
+        "secondary": "#1D3557",
+        "background": "#F4F1EA",
+        "surface": "#FFFFFF",
+        "surfaceHigh": "#E8E4DB",
+        "border": "#111111",
+        "onPrimary": "#FFFFFF",
+        "onSecondary": "#FFFFFF",
+        "onBackground": "#111111",
+        "onSurface": "#111111"
+      }
+    },
+    "dark": {
+      "colors": {
+        "primary": "#FF4D5A",
+        "secondary": "#FFB703",
+        "background": "#121212",
+        "surface": "#1C1C1C",
+        "surfaceHigh": "#292929",
+        "border": "#F4F1EA",
+        "onPrimary": "#FFFFFF",
+        "onSecondary": "#111111",
+        "onBackground": "#F4F1EA",
+        "onSurface": "#F4F1EA"
+      },
+      "style": {
+        "background": {
+          "type": "solid",
+          "colors": [
+            "#121212"
+          ]
+        }
+      }
+    }
+  }
+}

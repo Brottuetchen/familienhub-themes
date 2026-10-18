@@ -1,0 +1,85 @@
+{
+  "name": "Midnight OLED",
+  "colors": {
+    "primary": "#10B981",
+    "secondary": "#6366F1",
+    "background": "#000000",
+    "surface": "#09090B",
+    "surfaceHigh": "#18181B",
+    "border": "#27272A",
+    "onPrimary": "#000000",
+    "onSecondary": "#FFFFFF",
+    "onBackground": "#FAFAFA",
+    "onSurface": "#E4E4E7"
+  },
+  "style": {
+    "background": {
+      "type": "solid",
+      "colors": [
+        "#000000"
+      ]
+    },
+    "card": {
+      "radius": 16,
+      "border": 1,
+      "shadow": "none",
+      "glass": false,
+      "header": "plain"
+    },
+    "accents": [
+      "#10B981",
+      "#6366F1",
+      "#F43F5E",
+      "#F59E0B",
+      "#06B6D4",
+      "#A855F7"
+    ],
+    "layout": "bento",
+    "nav": "floating",
+    "titleWeight": 600,
+    "uppercaseTitles": false,
+    "font": {
+      "title": "grotesk",
+      "body": "system",
+      "label": "mono"
+    }
+  },
+  "variants": {
+    "light": {
+      "colors": {
+        "primary": "#059669",
+        "secondary": "#4F46E5",
+        "background": "#FFFFFF",
+        "surface": "#FAFAFA",
+        "surfaceHigh": "#F4F4F5",
+        "border": "#E4E4E7",
+        "onPrimary": "#FFFFFF",
+        "onSecondary": "#FFFFFF",
+        "onBackground": "#09090B",
+        "onSurface": "#18181B"
+      },
+      "style": {
+        "background": {
+          "type": "solid",
+          "colors": [
+            "#FFFFFF"
+          ]
+        }
+      }
+    },
+    "dark": {
+      "colors": {
+        "primary": "#10B981",
+        "secondary": "#6366F1",
+        "background": "#000000",
+        "surface": "#09090B",
+        "surfaceHigh": "#18181B",
+        "border": "#27272A",
+        "onPrimary": "#000000",
+        "onSecondary": "#FFFFFF",
+        "onBackground": "#FAFAFA",
+        "onSurface": "#E4E4E7"
+      }
+    }
+  }
+}

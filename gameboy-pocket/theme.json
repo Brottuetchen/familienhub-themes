@@ -1,0 +1,86 @@
+{
+  "name": "8-Bit Gameboy",
+  "colors": {
+    "primary": "#0F380F",
+    "secondary": "#306230",
+    "background": "#9BBC0F",
+    "surface": "#8BAC0F",
+    "surfaceHigh": "#7B9C0F",
+    "border": "#0F380F",
+    "onPrimary": "#9BBC0F",
+    "onSecondary": "#9BBC0F",
+    "onBackground": "#0F380F",
+    "onSurface": "#0F380F"
+  },
+  "style": {
+    "background": {
+      "type": "solid",
+      "colors": [
+        "#9BBC0F"
+      ]
+    },
+    "card": {
+      "radius": 0,
+      "border": 3,
+      "shadow": "hard",
+      "glass": false,
+      "header": "band"
+    },
+    "accents": [
+      "#0F380F",
+      "#306230",
+      "#527F30",
+      "#1E491E",
+      "#275627",
+      "#3F6E30"
+    ],
+    "layout": "bento",
+    "nav": "bar",
+    "titleWeight": 700,
+    "uppercaseTitles": true,
+    "font": {
+      "title": "pixel",
+      "body": "mono",
+      "label": "pixel"
+    }
+  },
+  "variants": {
+    "light": {
+      "colors": {
+        "primary": "#0F380F",
+        "secondary": "#306230",
+        "background": "#9BBC0F",
+        "surface": "#8BAC0F",
+        "surfaceHigh": "#7B9C0F",
+        "border": "#0F380F",
+        "onPrimary": "#9BBC0F",
+        "onSecondary": "#9BBC0F",
+        "onBackground": "#0F380F",
+        "onSurface": "#0F380F"
+      }
+    },
+    "dark": {
+      "colors": {
+        "primary": "#33FF33",
+        "secondary": "#FFB000",
+        "background": "#051005",
+        "surface": "#0A1F0A",
+        "surfaceHigh": "#123112",
+        "border": "#1F521F",
+        "onPrimary": "#051005",
+        "onSecondary": "#051005",
+        "onBackground": "#33FF33",
+        "onSurface": "#A3FFA3"
+      },
+      "style": {
+        "background": {
+          "type": "glow",
+          "colors": [
+            "#0A290A",
+            "#051005"
+          ]
+        }
+      }
+    }
+  }
+}

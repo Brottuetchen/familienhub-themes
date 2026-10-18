@@ -1,0 +1,89 @@
+{
+  "name": "Candy Pop",
+  "colors": {
+    "primary": "#FF477E",
+    "secondary": "#00BBF9",
+    "background": "#FFF0F5",
+    "surface": "#FFFFFF",
+    "surfaceHigh": "#FFE5EC",
+    "border": "#FFB3C6",
+    "onPrimary": "#FFFFFF",
+    "onSecondary": "#FFFFFF",
+    "onBackground": "#590D22",
+    "onSurface": "#4A154B"
+  },
+  "style": {
+    "background": {
+      "type": "gradient",
+      "colors": [
+        "#FFE5EC",
+        "#E0F4FF",
+        "#FFF9DB"
+      ]
+    },
+    "card": {
+      "radius": 40,
+      "border": 2,
+      "shadow": "hard",
+      "glass": false,
+      "header": "plain"
+    },
+    "accents": [
+      "#FF477E",
+      "#00BBF9",
+      "#00F5D4",
+      "#FEE440",
+      "#9B5DE5",
+      "#FF9E00"
+    ],
+    "layout": "bento",
+    "nav": "floating",
+    "titleWeight": 800,
+    "uppercaseTitles": false,
+    "font": {
+      "title": "grotesk",
+      "body": "system",
+      "label": "grotesk"
+    }
+  },
+  "variants": {
+    "light": {
+      "colors": {
+        "primary": "#FF477E",
+        "secondary": "#00BBF9",
+        "background": "#FFF0F5",
+        "surface": "#FFFFFF",
+        "surfaceHigh": "#FFE5EC",
+        "border": "#FFB3C6",
+        "onPrimary": "#FFFFFF",
+        "onSecondary": "#FFFFFF",
+        "onBackground": "#590D22",
+        "onSurface": "#4A154B"
+      }
+    },
+    "dark": {
+      "colors": {
+        "primary": "#FF7096",
+        "secondary": "#4CC9F0",
+        "background": "#1D1128",
+        "surface": "#2B193D",
+        "surfaceHigh": "#3C2355",
+        "border": "#5A357D",
+        "onPrimary": "#1D1128",
+        "onSecondary": "#1D1128",
+        "onBackground": "#FFE5EC",
+        "onSurface": "#F8EDFF"
+      },
+      "style": {
+        "background": {
+          "type": "glow",
+          "colors": [
+            "#4A154B",
+            "#1D1128",
+            "#0F2042"
+          ]
+        }
+      }
+    }
+  }
+}

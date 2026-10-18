@@ -1,0 +1,92 @@
+{
+  "name": "Nordic Fjord",
+  "colors": {
+    "primary": "#38BDF8",
+    "secondary": "#818CF8",
+    "background": "#0B131E",
+    "surface": "#131F30",
+    "surfaceHigh": "#1E2F47",
+    "border": "#2A4060",
+    "onPrimary": "#082F49",
+    "onSecondary": "#1E1B4B",
+    "onBackground": "#F0F9FF",
+    "onSurface": "#E2E8F0"
+  },
+  "style": {
+    "background": {
+      "type": "glow",
+      "colors": [
+        "#0284C7",
+        "#312E81",
+        "#0F766E"
+      ]
+    },
+    "card": {
+      "radius": 24,
+      "border": 1,
+      "shadow": "soft",
+      "glass": true,
+      "header": "plain"
+    },
+    "accents": [
+      "#38BDF8",
+      "#34D399",
+      "#FBBF24",
+      "#F87171",
+      "#A78BFA",
+      "#F472B6"
+    ],
+    "layout": "bento",
+    "nav": "floating",
+    "titleWeight": 700,
+    "uppercaseTitles": false,
+    "font": {
+      "title": "grotesk",
+      "body": "system",
+      "label": "mono"
+    }
+  },
+  "variants": {
+    "light": {
+      "colors": {
+        "primary": "#0284C7",
+        "secondary": "#4F46E5",
+        "background": "#F0F7FF",
+        "surface": "#FFFFFF",
+        "surfaceHigh": "#E0F2FE",
+        "border": "#BAE6FD",
+        "onPrimary": "#FFFFFF",
+        "onSecondary": "#FFFFFF",
+        "onBackground": "#0C4A6E",
+        "onSurface": "#0F172A"
+      },
+      "style": {
+        "background": {
+          "type": "gradient",
+          "colors": [
+            "#F0F7FF",
+            "#E0F2FE"
+          ]
+        },
+        "card": {
+          "glass": false,
+          "shadow": "soft"
+        }
+      }
+    },
+    "dark": {
+      "colors": {
+        "primary": "#38BDF8",
+        "secondary": "#818CF8",
+        "background": "#0B131E",
+        "surface": "#131F30",
+        "surfaceHigh": "#1E2F47",
+        "border": "#2A4060",
+        "onPrimary": "#082F49",
+        "onSecondary": "#1E1B4B",
+        "onBackground": "#F0F9FF",
+        "onSurface": "#E2E8F0"
+      }
+    }
+  }
+}

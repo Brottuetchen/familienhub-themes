@@ -1,0 +1,87 @@
+{
+  "name": "Cyberpunk",
+  "colors": {
+    "primary": "#F3F315",
+    "secondary": "#00F5FF",
+    "background": "#0B0C10",
+    "surface": "#15171E",
+    "surfaceHigh": "#1E222B",
+    "border": "#2E3642",
+    "onPrimary": "#000000",
+    "onSecondary": "#000000",
+    "onBackground": "#00FF66",
+    "onSurface": "#D1F4FF"
+  },
+  "style": {
+    "background": {
+      "type": "glow",
+      "colors": [
+        "#000B14",
+        "#0A0214",
+        "#0D0000"
+      ]
+    },
+    "card": {
+      "radius": 4,
+      "border": 3,
+      "shadow": "hard",
+      "glass": false,
+      "header": "band"
+    },
+    "accents": [
+      "#F3F315",
+      "#00F5FF",
+      "#00FF66",
+      "#FF0055",
+      "#9D00FF",
+      "#FF7700"
+    ],
+    "layout": "bento",
+    "nav": "floating",
+    "titleWeight": 900,
+    "uppercaseTitles": true,
+    "font": {
+      "title": "mono",
+      "body": "mono",
+      "label": "pixel"
+    }
+  },
+  "variants": {
+    "light": {
+      "colors": {
+        "primary": "#0010E6",
+        "secondary": "#B200CC",
+        "background": "#F0F0FF",
+        "surface": "#FFFFFF",
+        "surfaceHigh": "#E5E5FF",
+        "border": "#1A1D20",
+        "onPrimary": "#FFFFFF",
+        "onSecondary": "#FFFFFF",
+        "onBackground": "#0F0F20",
+        "onSurface": "#1A1A3A"
+      },
+      "style": {
+        "background": {
+          "type": "solid"
+        },
+        "card": {
+          "shadow": "hard"
+        }
+      }
+    },
+    "dark": {
+      "colors": {
+        "primary": "#F3F315",
+        "secondary": "#00F5FF",
+        "background": "#0B0C10",
+        "surface": "#15171E",
+        "surfaceHigh": "#1E222B",
+        "border": "#2E3642",
+        "onPrimary": "#000000",
+        "onSecondary": "#000000",
+        "onBackground": "#00FF66",
+        "onSurface": "#D1F4FF"
+      }
+    }
+  }
+}
