@@ -1,0 +1,65 @@
+{
+  "name": "Präzision",
+  "colors": {
+    "primary": "#C8381B",
+    "onPrimary": "#FFFFFF",
+    "secondary": "#141414",
+    "onSecondary": "#F3F0EA",
+    "background": "#EFECE6",
+    "onBackground": "#141414",
+    "surface": "#F5F3EE",
+    "onSurface": "#141414",
+    "surfaceHigh": "#E5E1D8",
+    "border": "#D3CEC3"
+  },
+  "style": {
+    "background": {
+      "type": "solid",
+      "colors": []
+    },
+    "card": {
+      "radius": 0,
+      "border": 1,
+      "shadow": "none",
+      "glass": false,
+      "header": "plain"
+    },
+    "accents": [
+      "#C8381B",
+      "#141414",
+      "#8C8678"
+    ],
+    "nav": "bar",
+    "layout": "bento",
+    "titleWeight": 800,
+    "uppercaseTitles": true,
+    "font": {
+      "title": "grotesk",
+      "body": "system",
+      "label": "mono"
+    }
+  },
+  "variants": {
+    "dark": {
+      "colors": {
+        "primary": "#E0482A",
+        "onPrimary": "#FFFFFF",
+        "secondary": "#EDEAE3",
+        "onSecondary": "#141414",
+        "background": "#121212",
+        "onBackground": "#EDEAE3",
+        "surface": "#1A1A1A",
+        "onSurface": "#EDEAE3",
+        "surfaceHigh": "#242424",
+        "border": "#2E2E2E"
+      },
+      "style": {
+        "accents": [
+          "#E0482A",
+          "#EDEAE3",
+          "#7D786D"
+        ]
+      }
+    }
+  }
+}
