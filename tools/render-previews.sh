@@ -21,7 +21,7 @@ APP="$WORK/familienhub/app"
 
 THEMES="$*"
 if [ -z "$THEMES" ]; then
-  THEMES="$(cd "$GALLERY" && for d in */; do [ -f "$d/theme.json" ] && echo "${d%/}"; done)"
+  THEMES="$(cd "$GALLERY" && for d in */; do if [ -f "$d/theme.json" ]; then echo "${d%/}"; fi; done)"
 fi
 
 # Reuse the demo backend of the app's own screenshot generator: keep everything
@@ -30,14 +30,40 @@ SRC="$APP/test_screenshots/screenshots_test.dart"
 OUT="$APP/test_screenshots/gallery_test.dart"
 sed '/^void main() {/,$d' "$SRC" > "$OUT"
 cat >> "$OUT" <<'DART'
+/// Same as the server's _merge_style (backend/app/routers/themes.py): a variant only changes what it
+/// sets; background and card are merged field by field. Without this, variants lose the base style.
+Map<String, dynamic> _mergeStyle(Map<String, dynamic> base, Map<String, dynamic>? override) {
+  if (override == null) return {...base};
+  final merged = {...base, ...override};
+  for (final key in ['background', 'card']) {
+    if (base[key] is Map && override[key] is Map) {
+      merged[key] = {...(base[key] as Map).cast<String, dynamic>(), ...(override[key] as Map).cast<String, dynamic>()};
+    }
+  }
+  return merged;
+}
+
 ThemeSpec _galleryTheme(String dir) {
   final raw = jsonDecode(File('$dir/theme.json').readAsStringSync()) as Map<String, dynamic>;
-  return ThemeSpec.fromJson({'id': 'gallery:${dir.split('/').last}', 'builtin': false, ...raw});
+  final base = (raw['style'] as Map?)?.cast<String, dynamic>() ?? <String, dynamic>{};
+  final variants = (raw['variants'] as Map?)?.cast<String, dynamic>() ?? <String, dynamic>{};
+  return ThemeSpec.fromJson({
+    'id': 'gallery:${dir.split('/').last}',
+    'builtin': false,
+    ...raw,
+    'variants': {
+      for (final e in variants.entries)
+        e.key: {
+          ...(e.value as Map).cast<String, dynamic>(),
+          'style': _mergeStyle(base, ((e.value as Map)['style'] as Map?)?.cast<String, dynamic>()),
+        },
+    },
+  });
 }
 
 void main() {
   final gallery = Platform.environment['GALLERY_DIR']!;
-  final themes = Platform.environment['GALLERY_THEMES']!.split(' ').where((s) => s.isNotEmpty);
+  final themes = Platform.environment['GALLERY_THEMES']!.split(RegExp(r'\s+')).where((s) => s.isNotEmpty);
   setUp(() async {
     await setUpTestEnv();
     await _loadFonts();
