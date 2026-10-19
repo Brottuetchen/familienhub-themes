@@ -15,9 +15,14 @@ In the app: **More → Appearance → From GitHub** (admins), then paste the lin
 | **Matcha Zen** | Soft greens and latte tones, glass cards with a gentle glow. | `https://github.com/Brottuetchen/familienhub-themes/blob/main/matcha-latte/theme.json` |
 | **Nordic Fjord** | Glacier blue and violet glow, glass cards. | `https://github.com/Brottuetchen/familienhub-themes/blob/main/nordic-fjord/theme.json` |
 | **Midnight OLED** | True black for OLED screens with emerald and indigo accents; light variant included. | `https://github.com/Brottuetchen/familienhub-themes/blob/main/pitch-black-oled/theme.json` |
+| **Präzision** | Technical measurement-report aesthetic: warm paper, signal red-orange, square panels, fine lines and mono labels. | `https://github.com/Brottuetchen/familienhub-themes/blob/main/praezision/theme.json` |
 | **Retro Synthwave** | Hot pink and cyan on deep purple, 80s neon glow. | `https://github.com/Brottuetchen/familienhub-themes/blob/main/retro-synthwave/theme.json` |
 | **Solarized Paper** | Warm paper tones with forest green and brown, round cards. | `https://github.com/Brottuetchen/familienhub-themes/blob/main/solarized-paper/theme.json` |
 | **Swiss Bauhaus** | Bauhaus/Swiss style: red, navy and yellow, square cards, heavy uppercase titles. | `https://github.com/Brottuetchen/familienhub-themes/blob/main/swiss-grid/theme.json` |
+
+## Preview
+
+![Präzision light and dark](praezision/vorschau.svg)
 
 ## Make your own
 
@@ -25,4 +30,4 @@ A theme is one `theme.json` with colours and a few style switches, no code. Form
 
 ## License
 
-[CC0 1.0](LICENSE): use, change and share the themes freely.
+The gallery is [CC0 1.0](LICENSE). **Präzision** keeps its original [MIT license](praezision/LICENSE).
