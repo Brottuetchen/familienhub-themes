@@ -20,14 +20,10 @@ In the app: **More → Appearance → From GitHub** (admins), then paste the lin
 | **Solarized Paper** | Warm paper tones with forest green and brown, round cards. | `https://github.com/Brottuetchen/familienhub-themes/blob/main/solarized-paper/theme.json` |
 | **Swiss Bauhaus** | Bauhaus/Swiss style: red, navy and yellow, square cards, heavy uppercase titles. | `https://github.com/Brottuetchen/familienhub-themes/blob/main/swiss-grid/theme.json` |
 
-## Preview
-
-![Präzision light and dark](praezision/vorschau.svg)
-
 ## Make your own
 
 A theme is one `theme.json` with colours and a few style switches, no code. Format and rules: [docs/themes.md](https://github.com/Brottuetchen/familienhub/blob/main/docs/themes.md). Pull requests with new themes are welcome; please add a folder with `theme.json` and a line in this table.
 
 ## License
 
-The gallery is [CC0 1.0](LICENSE). **Präzision** keeps its original [MIT license](praezision/LICENSE).
+The gallery is [CC0 1.0](LICENSE). Präzision's original theme remains under MIT; see [LICENSE-PRAEZISION](LICENSE-PRAEZISION).
